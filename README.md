@@ -17,15 +17,11 @@ npm install brand-mark
 
 ## Usage
 
-```javascript
-import brandMark from 'brand-mark';
+```javascript | react
+import { BrandMark } from 'brand-mark';
 
 // Configure brand mark placement and style
-brandMark.configure({
-  position: 'top-right',
-  size: 'medium',
-  color: '#ff0000',
-});
+<BrandMark title="BrandName" />
 
 // Apply brand mark to your project
 brandMark.apply();
@@ -33,9 +29,8 @@ brandMark.apply();
 
 ## Configuration Options
 
-- `position`: Specifies the placement of the brand mark (e.g., top-left, top-right, bottom-left, bottom-right).
-- `size`: Defines the size of the brand mark (e.g., small, medium, large).
-- `color`: Sets the color of the brand mark.
+- `type`: Specifies the placement of the brand mark (e.g., top-left, top-right, bottom-left, bottom-right).
+- `title`: Brand title
 
 ## License
 
