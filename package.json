@@ -1,7 +1,7 @@
 {
-  "name": "brand-mark",
+  "name": "@vadvoice/brand-mark",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "main": "dist/index.umd.js",
   "module": "dist/index.es.js",
@@ -10,6 +10,10 @@
   ],
   "publishConfig": {
     "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vadvoice/brand-mark"
   },
   "scripts": {
     "dev": "vite",
